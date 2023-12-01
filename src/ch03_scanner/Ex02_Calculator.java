@@ -15,9 +15,27 @@ public class Ex02_Calculator {
 		System.out.print("두번째 숫자를 입력하세요 : ");
 		int num2 = scanner.nextInt();
 		int num3 = (num1 + num2);
+		int num4 = (num2 + num3);
+		int num5 = (num3 + num4);
+
 		System.out.println(num1 + "과" + num2 + "의 합계는 " + num3 + "입니다.");
-		System.out.println(num1 + "+" + num2 + "=" + num3);
-		System.out.println("총합 : " + num3);
+		System.out.println(num2 + "+" + num3 + "=" + num4);
+		System.out.println(num3 + "더하기" + num4 + "총합 : " + num5);
+
+		System.out.print("이름을 입력하세요 : ");
+		String name = scanner.next();
+		System.out.println(name);
+
+		scanner.nextLine();
+		
+		System.out.print("주소를 입력하세요 : ");
+		String address = scanner.nextLine(); // 넥스트를 썻다가 넥스트라인을 쓰면 오류가 발생할수있음
+		System.out.println(address);
+		
+		System.out.print("혈액형 : ");
+		String address = scanner.nextLine(); 
+		System.out.println(address);
+		
 	}
 
 }

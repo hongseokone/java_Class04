@@ -32,10 +32,6 @@ public class Ex02_Calculator {
 		String address = scanner.nextLine(); // 넥스트를 썻다가 넥스트라인을 쓰면 오류가 발생할수있음
 		System.out.println(address);
 		
-		System.out.print("혈액형 : ");
-		String address = scanner.nextLine(); 
-		System.out.println(address);
-		
 	}
 
 }

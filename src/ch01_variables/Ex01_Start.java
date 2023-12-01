@@ -15,7 +15,9 @@ public class Ex01_Start {
 		String mobile = "010-2225-8996";
 		
 		// 변수값 출력
-		// System.out.println(name);
+		// System.out.println("name"); / ""에들어있는거 그대로출력
+		// System.out.println(name); / name이라는 값을 불러올수있다.
+		// System.out.println("저의 이름은 : " + name ); // 같이출력을해주는경우에는 + / "저의 이름은 : " + name + "입니다" 이런식으로 출력값을입력할경우 출력값 : 저의 이름은 : 홍석원입니다.로 출력  		
 		System.out.println("저의 이름은 : " + name + "입니다"); // 같이출력을해주는경우에는 + 		
 		System.out.println("나이는 : " + age);
 		System.out.println("키 : " + height);

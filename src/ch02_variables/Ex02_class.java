@@ -51,6 +51,5 @@ public class Ex02_class {
 		System.out.println(divResult);
 		int remainResult = num1 % num2;
 		System.out.println(remainResult);
-		
 	}
 }

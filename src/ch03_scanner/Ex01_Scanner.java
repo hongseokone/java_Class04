@@ -9,6 +9,7 @@ public class Ex01_Scanner {
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("숫자를 입력하세요: ");
 		int num1 = scanner.nextInt();
+		
 		System.out.println(num1);
 
 	}

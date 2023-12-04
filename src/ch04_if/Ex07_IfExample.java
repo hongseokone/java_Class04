@@ -26,6 +26,22 @@ public class Ex07_IfExample {
 			System.out.println("불합격");
 		}
 		
+//		if (year >= 1 && year <= 4 && score >= 0 && score <= 100) {
+//			if (score >= 60) {
+//				if(year != 4) {
+				// 1~3학년 합격
+//				System.out.println("합격")
+//			} else if (score >= 70){
+				// 4학년합격
+//				System.out.println("합격");
+//			} else{
+				// 위의 두 조건을 만족하지 않기 때문에 불합격
+//				System.out.println("불합격");
+		
+//		}else{
+//			System.out.println("점수, 학년 값이 입력 범위를 벗어났습니다.");
+//		}
+		
 	
 	}
 

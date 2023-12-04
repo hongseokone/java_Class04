@@ -29,6 +29,7 @@ public class Ex01_SwitchCase {
                 break;
             case "제주":
                 System.out.println("제주입니다.");
+                break;
             default: // 다 해당 되지 않을때 사용
                 System.out.println("한국이 아니에요.");
                 break;

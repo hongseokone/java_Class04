@@ -45,6 +45,6 @@ public class Ex04_IfExample {
 		System.out.println("입력범위를 초과하였습니다.");
 	}
 		
-	System.out.println("학점은" + grade + "입니다"); 
+	System.out.println("학점은 " + grade + " 입니다."); 
 }
 }

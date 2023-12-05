@@ -27,5 +27,17 @@ public class Ex02_ForEx {
         for(a = 5; a >= 1; a--){
             System.out.println(" a = " + a);
         }
+
+        // 10 8 6 4 2  출력
+        int n = 0;
+        for(n = 10; n >=2; n-=2){
+            System.out.println(+ n);
+
+        // 21 17 14 ~출력
+        int h = 0;
+        for(h = 21; h >=3; h-=3){
+            System.out.println(+ h);
+        }
+        }
     }
 }

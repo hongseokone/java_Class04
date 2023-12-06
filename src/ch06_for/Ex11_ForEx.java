@@ -20,5 +20,12 @@ public class Ex11_ForEx {
             System.out.println(); // 줄을 바꾸기위한용도
         }
 
+//        for(int i = 1; i <= 5; i++){
+//            for (int e = 1; e <= i; e++){
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
+
     }
 }
